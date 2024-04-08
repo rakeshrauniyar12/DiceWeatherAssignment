@@ -18,7 +18,7 @@ let  showData= async()=>{
 }
 let  showData1= async()=>{
     let city=document.querySelector("#city").value;
-    fetch(`http://localhost:8080/Location/hourly?city=${city}`)
+    fetch(`http://localhost:8080/Location/summary?city=${city}`)
     .then((res)=>{
        return res.json();
       
