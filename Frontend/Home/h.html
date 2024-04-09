@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="./h.css">
 </head>
 <body>
+    <a href="./Home/h.css"></a>
     <div id="cont">
         <div id="c1">
         <input id="city" type="text" placeholder="Get Hourly Data Based On City Name">
-       <button id="button">Submit</button>
+       <button onclick="showData()" id="button">Submit</button>
     </div>
         <div id="c2">
-        <input type="text" placeholder="Get Forecast Data Based On City Name">
+        <input type="text" id="city1" placeholder="Get Forecast Data Based On City Name">
         <button id="btn" onclick="showDataHourly()">Submit</button>
     </div>
     </div>
-    <div id="main"></div>
+    <div id="main">
+      
+    </div>
 </body>
 </html>
+<script src="./h.js"></script>

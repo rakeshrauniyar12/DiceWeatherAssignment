@@ -12,7 +12,7 @@ let addUser=  (e)=>{
     userArr.forEach((el)=>{
          if(el.Email===Email && el.Password===Password){
             alert("You are successfully login");
-            window.location.href("../Home/h.html");
+            window.location.href="http://127.0.0.1:5500/Home/h.html";
          }
     })
     

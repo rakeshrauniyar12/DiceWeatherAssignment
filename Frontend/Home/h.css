@@ -1,0 +1,56 @@
+
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+#main>.div{
+    border-radius: 10px;
+    background-color: rgb(248, 178, 153);
+    padding: 10px 10px;
+}
+#main>.div>p{
+    margin: 10px 10px;
+}
+#cont{
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+#cont>#c1{
+    width: 95%;
+    /* margin-left: 30px; */
+    margin: auto;
+}
+#cont>#c1>input{
+    width: 70%;
+        padding: 10px 10px;
+        border-radius: 5px;
+}
+#cont>#c1>button{
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#cont>#c2{
+    width: 95%;
+    /* margin-left: 30px; */
+}
+#cont>#c2>input{
+    width: 70%;
+        padding: 10px 10px;
+        border-radius: 5px;
+}
+#cont>#c2>button{
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

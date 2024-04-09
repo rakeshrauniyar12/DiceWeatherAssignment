@@ -13,5 +13,5 @@ let addUser=  (e)=>{
     let userData={Name,Email,Mobile_No,Password};
     userArr.push(userData);
     localStorage.setItem("cart",JSON.stringify(userArr));
-    console.log(userArr);
+     window.location.href="./login/dice.html"
 }
